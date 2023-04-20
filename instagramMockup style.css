@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexbox {
+  display: flex;
+  /*border: 30px solid red;*/
+  justify-content: center;
+  /*align-items: center;*/
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.phonebox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /*border: 30px solid blue;*/
+  padding: 50px;
+  align-items: center;
+  gap: 10px;
+}
+
+.iphone {
+}
+
+.formboxmain {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /*border: 30px solid blue;*/
+  padding: 50px;
+  width: fit-content;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.formbox1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid black;
+  gap: 2px;
+  padding: 10%;
+}
+
+.instagramheader {
+  font-size: 40px;
+}
+
+.usernameform {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+.passwordform {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+.loginbutton {
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: blue;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.formbox2 {
+  border: 1px solid black;
+}
+
+.formbox3 {
+}
+
+@media (max-width: 750px) {
+  .phonebox {
+    flex: 0 100%;
+    order: 2;
+  }
+}
